@@ -1,0 +1,144 @@
+body {
+  background: #ffe0e2;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  line-height: 23px;
+}
+
+footer {
+  margin: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 10px 25px;
+}
+
+.main-picture {
+  border-radius: 10px;
+  margin: 10px 0 20px 0;
+  transition: all 150ms ease-in-out;
+}
+
+.main-picture:hover {
+  opacity: 0.7;
+  transform: scale(1.05);
+}
+
+.theme-button {
+  background: #ffe0e2;
+  border: 2px solid #ef9299;
+  border-radius: 5px;
+  color: black;
+  display: block;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 10px;
+  transition: all 150ms ease-in-out;
+}
+
+.theme-button:hover {
+  background: rgba(225, 160, 76, 1);
+  border: 2px solid white;
+  color: white;
+}
+
+.flavor-button {
+  background: rgba(255, 255, 255, 0.7);
+  border: 2px solid #ffe0e2;
+  border-radius: 5px;
+  display: block;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 16px;
+  margin: 30px auto 15px auto;
+  padding: 10px;
+  transition: all 150ms ease-in-out;
+}
+
+.flavor-button:hover {
+  background: #ef9299;
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  margin-bottom: 20px;
+}
+
+.grid img {
+  border-radius: 10px;
+  height: 100%;
+  transition: all 150ms ease-in-out;
+}
+
+.grid img:hover {
+  transform: scale(1.2);
+}
+
+.funky-theme {
+  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/083/409/original/16463954_v2.jpg?1685196542");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.funky-theme .container {
+  background: rgba(225, 160, 76, 1);
+  color: white;
+}
+
+.funky-theme a {
+  color: #f9d1e9;
+}
+
+.funky-theme footer {
+  color: white;
+}
+
+.funky-theme .flavor-button {
+  background: rgba(225, 160, 76, 1);
+  color: white;
+}
+
+.funky-theme .flavor-button:hover {
+  background: #9acccd;
+  color: white;
+}
+
+.funky-theme .theme-button {
+  background: rgba(225, 160, 76, 1);
+  border: 2px solid white;
+  color: white;
+}
+
+.funky-theme .theme-button:hover {
+  background: #ffe0e2;
+  border: 2px solid #ef9299;
+  color: black;
+}
